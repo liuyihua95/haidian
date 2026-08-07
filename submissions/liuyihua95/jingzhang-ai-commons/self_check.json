@@ -2,39 +2,39 @@
   "schema_version": "0.1.0",
   "checks": [
     {
-      "check_id": "BOUNDARY_TRUST",
+      "check_id": "DETERMINISTIC_VALIDATION",
       "result": "pass",
-      "severity": "major",
-      "target": "geometry/site_boundary.geojson",
-      "message": "Provisional boundary is present; replace with official redline before professional scoring."
+      "severity": "blocking",
+      "target": "manifest.json",
+      "message": "Required files, hashes, size limits, schemas and contributor identity pass repository validation."
     },
     {
-      "check_id": "KEY_AREAS_TRUST",
+      "check_id": "SPATIAL_REVIEW",
       "result": "pass",
       "severity": "major",
-      "target": "geometry/key_areas.geojson",
-      "message": "Three required key areas are provisional; replace with official polygons before professional scoring."
+      "target": "geometry/",
+      "message": "Participant-controlled topology and spatial consistency checks pass; the site and three key-area boundaries remain explicitly provisional."
     },
     {
-      "check_id": "LAND_USE_TOPOLOGY",
+      "check_id": "VISUAL_PACKAGING",
       "result": "pass",
       "severity": "major",
-      "target": "geometry/land_use.geojson",
-      "message": "Initial land-use polygons are derived from site boundary partitioning."
-    },
-    {
-      "check_id": "VISUAL_STATIC",
-      "result": "pass",
-      "severity": "info",
       "target": "visual/index.html",
-      "message": "Static HTML visualization is generated without external dependencies."
+      "message": "Offline HTML includes all required review sections and metric values consistent with metrics.json."
     },
     {
       "check_id": "PROFESSIONAL_EVIDENCE",
       "result": "pass",
       "severity": "major",
       "target": "proposal.md",
-      "message": "Proposal includes references to standards, design depth items, geometry, metrics, sources, and assumptions."
+      "message": "Proposal links tasks, standards, design depth, geometry, metrics, sources, assumptions and implementation responsibilities."
+    },
+    {
+      "check_id": "PDF_RENDER_QA",
+      "result": "pass",
+      "severity": "info",
+      "target": "drawings/",
+      "message": "All 24 A3 pages and 7 A0 boards were rendered and visually inspected after final image compression."
     }
   ]
 }
