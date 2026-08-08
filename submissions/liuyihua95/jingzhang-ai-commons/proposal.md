@@ -7,7 +7,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "一百年前京张铁路为中国现代化铺轨；一百年后海淀以文明跃迁轴、三大城市原型和五条文明新轨，探索以人的全面发展、公共智能、可信治理、人机共创和地球共生为目标的智能文明。"
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "ai-cultural-guide", "ai-health-service-navigation"]
-iteration: "v3.1"
+iteration: "v3.2"
 ---
 
 # 人类新轨：从百年京张到智能文明
@@ -77,6 +77,17 @@ iteration: "v3.1"
 ## 总体设计范围城市更新与控规深度城市设计
 
 用地分区完整覆盖提交边界 [data:geometry/land_use.geojson#LU-001] [depth:land_use_layout]，但只表达“研发创新、绿地开敞、产业商业、社区配套”四类设计语义，不等同法定用地。城市形态采用“开放校园 + 连续公共首层 + 蓝绿文明基底”：以遗址主轴两侧 300-500 米步行圈组织共享研发、人才服务、终身教育、夜间协作和社区设施；横向三条缝合线把清河、近校片区和大钟寺轨道门户连到主轴 [data:geometry/roads.geojson#ROAD-001]。蓝绿体验环既是生态廊道，也是低风险测试、公共学习和夏季避暑空间；绿地与公共空间概念比例分别为 12.3% 和 7.3% [metric:green_ratio] [metric:public_space_ratio]。
+
+### 概念用地平衡
+
+| 设计语义分区 | 用地代码 | 复算面积 | 概念占比 | 主要承载功能 |
+| --- | --- | ---: | ---: | --- |
+| AI 研发创新用地 | 0802 | 2.675 km² [metric:land_use_ai_rd_area_sqm] | 23.4% [metric:land_use_ai_rd_ratio] | 基础研究、共享研发、验证工坊与开源协作 |
+| 公园绿地与开敞空间 | 1401 | 2.589 km² [metric:land_use_park_open_area_sqm] | 22.7% [metric:land_use_park_open_ratio] | 遗址活力轴、蓝绿生态、公共交往与低风险测试 |
+| 产业服务与商业服务用地 | 05 | 3.366 km² [metric:land_use_industry_commercial_area_sqm] | 29.5% [metric:land_use_industry_commercial_ratio] | 技术转化、企业服务、展示发布与生活商业 |
+| 社区服务与配套用地 | 0702 | 2.783 km² [metric:land_use_community_support_area_sqm] | 24.4% [metric:land_use_community_support_ratio] | 居住配套、公共服务、人才服务与终身学习 |
+
+上述面积全部从本方案 `geometry/land_use.geojson` 在 EPSG:4548 中复算，四类概念分区合计约 100%；因投影与共享边界计算产生约 7.35㎡数值误差。它们是面向方案讨论的功能分配，不是现状调查、法定用地平衡或审批指标。12.3% 绿地比例与 7.3% 公共空间比例来自叠加型设计图层，不与上述四类分区相加。当前不单列“教育用地占比”：终身学习、人才培养和校地共享作为社区配套及北京 AI 原点社区中的运营功能表达，待 official 控规和地块边界到位后，再由专业团队判断是否需要形成法定教育用地分类，避免用场景面积冒充教育用地指标。
 
 建筑采用“先用、再改、后建”的可逆更新序列：优先盘活首层、院落、屋顶和边角空间；通过轻型连廊、可拆卸实验舱、共享中庭、屋顶能源花园和可转换首层形成新旧共生，而不是用统一未来风格覆盖遗产和社区。只有在测绘、权属、结构、消防、文保和控规复核后，才讨论新增建筑。八个原型基底 [data:geometry/buildings.geojson#BLDG-001] 用于验证智能验证厅、终身 AI 学院、可信智能公众参与中心等空间关系，不是具体拆改留结论 [depth:retain_renovate_demolish]。容积率、总建筑面积、道路面积率和高度均保持 unknown [metric:floor_area_ratio] [metric:total_floor_area_sqm] [metric:road_area_ratio] [depth:development_intensity_controls] [depth:height_massing_character]。
 
@@ -171,7 +182,7 @@ iteration: "v3.1"
 
 ![核心指标、证据链与缺口状态](assets/figures/metrics-evidence.png)
 
-指标分三层：可复算设计指标（site、绿地、公共空间、概念建筑和网络）、任务覆盖指标（23 项 compliance、6 项标准、15 项深度）、待补官方指标（FAR、总建筑面积、道路面积率、现状与权属）。`site_area_sqm`、`green_ratio`、`public_space_ratio` 是视觉页面的机器对照字段；已知值都记录公式、源文件、置信度和假设 [depth:metrics_recalculation]。核心数值的设计含义不是追求比例本身，而是检验公共空间是否真正承载创新交往、绿色系统是否支持日常步行、原型建筑是否保持轻量可逆。
+指标分三层：可复算设计指标（site、四类概念用地、绿地、公共空间、概念建筑和网络）、任务覆盖指标（23 项 compliance、6 项标准、15 项深度）、待补官方指标（FAR、总建筑面积、道路面积率、现状与权属）。`site_area_sqm`、四类 `land_use_*_ratio`、`green_ratio`、`public_space_ratio` 是视觉页面的机器对照字段；已知值都记录公式、源文件、置信度和假设 [depth:metrics_recalculation]。核心数值的设计含义不是追求比例本身，而是检验研发、转化、社区服务与开敞空间是否形成可讨论的平衡，公共空间是否真正承载创新交往，绿色系统是否支持日常步行，原型建筑是否保持轻量可逆。
 
 `compliance_matrix.json` 覆盖公告 1.3/1.4/1.5 与 agent.1-agent.6；`standard_matrix.json` 把标准链接到正文、图层、指标、图纸与假设；`design_depth_matrix.json` 的 15 项 complete 表示“提交证据链完整”，不等于法定条件已批准。自检必须同时通过 deterministic、spatial、visual 和 professional 四组检查。
 
