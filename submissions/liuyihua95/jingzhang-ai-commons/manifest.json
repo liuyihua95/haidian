@@ -23,7 +23,7 @@
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "b164036c85bc5e9c2749e53f69388a125aafe5f5faaf87e35bb84d838872bd26"
+      "sha256": "24fac97164522bb17ea060bc8df104673a74bebb19878d6ea7e652abb948a8d5"
     },
     {
       "path": "agent.json",
@@ -77,7 +77,7 @@
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "fe703c33e37778f798797a7800ae98284b81892040e43c3ce6bd929c40c28ef0"
+      "sha256": "00f0ccd4d723b55c6f1ab726f20faf81827ba453dcc7f74755cd8ed7ebd64cde"
     },
     {
       "path": "report/narrative.md",
@@ -95,19 +95,19 @@
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "101da7555bda5eff642198593ed5cb29e9c99c171e2f380f39b4bd134e2b63c3"
+      "sha256": "f13e37abd80fdee6cf2ea46bd6d0598811a6d2520affaa2b9015dae6ad0324b2"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "859e78d4d4c1f0ee3399ebe3cc9100c692ab2aa4de56cf2a16e6655b888f81a5"
+      "sha256": "0a2f744115bd6f8d2e0006f32f19221cf28aeda0a382f3c0077973f6e46b1ff2"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
-      "sha256": "df89a52b3060d1595122f0cd4864749fd5d442458fa731de0ee711a8e8eeafcc"
+      "sha256": "7ba8249226421222c8b013d538bcb8dac97fcc702a85c8a1ff8c04080308c598"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -275,13 +275,13 @@
       "path": "assets/figures/personas-v3.png",
       "role": "supporting_figure",
       "required": false,
-      "sha256": "234fc62a7199c0f964e8d9eda2dedd0bc13b55e596ca11a32e4a81f5e093ede5"
+      "sha256": "049db19a949c4092bdb78cf5f1f99e5054779d066e61bb98a88723885d37ca8d"
     },
     {
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "b189eb78ccca6cf08d3db34fdd0a50e3d363e200f31df995a4d7853ac3c824e2"
+      "sha256": "0e744db0b8932afa39075975b385993b6386ab532154aa418f01e2718433cfd0"
     }
   ],
   "validation_claim": {

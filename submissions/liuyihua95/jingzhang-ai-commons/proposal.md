@@ -7,7 +7,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "一百年前京张铁路为中国现代化铺轨；一百年后海淀以文明跃迁轴、三大城市原型和五条文明新轨，探索以人的全面发展、公共智能、可信治理、人机共创和地球共生为目标的智能文明。"
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "ai-cultural-guide", "ai-health-service-navigation"]
-iteration: "v3.0"
+iteration: "v3.1"
 ---
 
 # 人类新轨：从百年京张到智能文明
@@ -78,7 +78,7 @@ iteration: "v3.0"
 
 用地分区完整覆盖提交边界 [data:geometry/land_use.geojson#LU-001] [depth:land_use_layout]，但只表达“研发创新、绿地开敞、产业商业、社区配套”四类设计语义，不等同法定用地。城市形态采用“开放校园 + 连续公共首层 + 蓝绿文明基底”：以遗址主轴两侧 300-500 米步行圈组织共享研发、人才服务、终身教育、夜间协作和社区设施；横向三条缝合线把清河、近校片区和大钟寺轨道门户连到主轴 [data:geometry/roads.geojson#ROAD-001]。蓝绿体验环既是生态廊道，也是低风险测试、公共学习和夏季避暑空间；绿地与公共空间概念比例分别为 12.3% 和 7.3% [metric:green_ratio] [metric:public_space_ratio]。
 
-建筑采用“先用、再改、后建”的可逆更新序列：优先盘活首层、院落、屋顶和边角空间；通过轻型连廊、可拆卸实验舱、共享中庭、屋顶能源花园和可转换首层形成新旧共生，而不是用统一未来风格覆盖遗产和社区。只有在测绘、权属、结构、消防、文保和控规复核后，才讨论新增建筑。八个原型基底 [data:geometry/buildings.geojson#BLDG-001] 用于验证智能验证厅、终身 AI 学院、公共智能议会等空间关系，不是具体拆改留结论 [depth:retain_renovate_demolish]。容积率、总建筑面积、道路面积率和高度均保持 unknown [metric:floor_area_ratio] [metric:total_floor_area_sqm] [metric:road_area_ratio] [depth:development_intensity_controls] [depth:height_massing_character]。
+建筑采用“先用、再改、后建”的可逆更新序列：优先盘活首层、院落、屋顶和边角空间；通过轻型连廊、可拆卸实验舱、共享中庭、屋顶能源花园和可转换首层形成新旧共生，而不是用统一未来风格覆盖遗产和社区。只有在测绘、权属、结构、消防、文保和控规复核后，才讨论新增建筑。八个原型基底 [data:geometry/buildings.geojson#BLDG-001] 用于验证智能验证厅、终身 AI 学院、可信智能公众参与中心等空间关系，不是具体拆改留结论 [depth:retain_renovate_demolish]。容积率、总建筑面积、道路面积率和高度均保持 unknown [metric:floor_area_ratio] [metric:total_floor_area_sqm] [metric:road_area_ratio] [depth:development_intensity_controls] [depth:height_massing_character]。
 
 ## 重点区域详细设计
 
@@ -153,7 +153,7 @@ iteration: "v3.0"
 
 ## 蓝绿空间、公共空间与城市风貌
 
-遗址公园不是景观背景，而是一条可行走的文明时间轴和“贡献可见、技术可问、错误可修”的公共界面 [depth:blue_green_public_space]。五个文明地标依次是“百年京张纪念原点”“人类智能演化长廊”“人与 AI 共同创造广场”“公共智能议会”和“大钟寺智能文明未来之门”。它们分别承担纪念、学习、创造、治理和全球发布功能，并与移动式树荫工作台、低亮度电子墨水导视、无障碍共测组件、可拆卸展示框架组成公共空间组件库。
+遗址公园不是景观背景，而是一条可行走的文明时间轴和“贡献可见、技术可问、错误可修”的公共界面 [depth:blue_green_public_space]。五个文明地标依次是“百年京张纪念原点”“人类智能演化长廊”“人与 AI 共同创造广场”“可信智能公众参与中心”和“大钟寺智能文明未来之门”。它们分别承担纪念、学习、创造、公众参与和全球发布功能，并与移动式树荫工作台、低亮度电子墨水导视、无障碍共测组件、可拆卸展示框架组成公共空间组件库。其中“可信智能公众参与中心”是面向居民、专家、企业和城市运营者的概念性公共空间，提供 AI 标准与安全治理展示、公众体验、共同测试、意见反馈、人工复核申请和专业交流，不代表既有机构或政府审定项目。
 
 文化叙事形成五段文明跃迁：铁路文明代表连接，工程文明代表自主建造，中关村知识文明代表思想与市场活力，人工智能革命代表认知能力扩展，人机共生文明代表新的权利、责任和共同未来。导视使用“里程 + 年代 + 文明问题”的轨道语法，但不复制历史文物图像；贡献展示重视团队、社区和维护劳动，不制造单一英雄崇拜。所有史料需由专业机构校核，所有字体、图像、商标和人物材料需清权。
 
@@ -162,7 +162,7 @@ iteration: "v3.0"
 | 分期 | 概念项目 | 依赖条件 | 公共验收门 |
 | --- | --- | --- | --- |
 | 2026—2028 铺设可信底轨 | official 数据补齐、断点开放、文明轴导视、5 个受控测试、公共智能治理协议 | official polygon、交通文保核查、数据保护评估 | 可达性、明示 AI、退出机制、事故复盘 |
-| 2029—2035 形成共生原型 | 三大原型区、两翼服务网络、终身 AI 学院、公共智能议会、蓝绿生命系统 | 运营主体、空间权属、消防与容量论证 | 能力增长、居民满意、场景转化、公共收益 |
+| 2029—2035 形成共生原型 | 三大原型区、两翼服务网络、终身 AI 学院、可信智能公众参与中心、蓝绿生命系统 | 运营主体、空间权属、消防与容量论证 | 能力增长、居民满意、场景转化、公共收益 |
 | 2036—2049 输出文明标准 | 国际伙伴节点、开放标准档案、城市原型交换、全球智能文明大会 | 长期资金与治理章程另行审议 | 年度透明报告、独立评估、退出更新、全球复制 |
 
 三期 polygon 仅表达依赖关系和学习顺序 [data:geometry/phasing.geojson#PHASE-001] [metric:phase_1_area_sqm] [metric:phase_2_area_sqm] [metric:phase_3_area_sqm] [depth:renewal_project_list] [depth:phasing_implementation]，不是土地开发时序。建议成立“人类新轨理事会”：专业团队负责空间与安全，科研和开发者社区维护开放资产，居民陪审团审看高影响场景，伦理与法律委员审查权利边界，运营方发布年度透明度报告。活动体系包括春季智能文明议题发布、夏季城市原型共测、秋季全球智能文明大会、冬季贡献与责任归档；均为概念建议。
