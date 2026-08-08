@@ -7,7 +7,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "一百年前京张铁路为中国现代化铺轨；一百年后海淀以文明跃迁轴、三大城市原型和五条文明新轨，探索以人的全面发展、公共智能、可信治理、人机共创和地球共生为目标的智能文明。"
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "ai-cultural-guide", "ai-health-service-navigation"]
-iteration: "v3.4"
+iteration: "v3.5"
 ---
 
 # 人类新轨：从百年京张到智能文明
@@ -115,7 +115,7 @@ iteration: "v3.4"
 
 ### 大钟寺 AI 产业集聚区
 
-定位为“新生活进入城市的大门”，回答“AI 如何进入每个人的日常”。概念方案围绕轨道站四象限形成连续公共首层、未来出行客厅、AI 医疗教育法律导航站、智能产品首发厅、人工服务兜底中心和“智能文明未来之门”。所有体验必须明示 AI 身份、支持人工退出、禁止暗中画像；高影响服务只做导航和初筛，不代替医生、教师、律师或法定责任主体。连接方式仅表达步行目标与服务关系，不作桥隧或工程可行性判断 [data:geometry/key_areas.geojson#PROV-KEY-003] [metric:key_area_count]。
+定位为“新生活进入城市的大门”，回答“AI 如何进入每个人的日常”。概念方案围绕轨道站四象限形成连续公共首层、未来出行客厅、AI 医疗教育法律导航站、智能产品首发厅、人工服务兜底中心和“智能文明未来之门”；自主接驳、无人配送与少量具身智能服务机器人共同进入日常公共空间，但始终保持人行优先。所有体验必须明示 AI 身份、支持人工退出、禁止暗中画像；高影响服务只做导航和初筛，不代替医生、教师、律师或法定责任主体。连接方式仅表达步行目标与服务关系，不作桥隧或工程可行性判断 [data:geometry/key_areas.geojson#PROV-KEY-003] [metric:key_area_count]。
 
 ![图 13｜大钟寺 AI 产业集聚区片区设计控制卡](assets/figures/key-area-detail-3-v2.png)
 
