@@ -4,10 +4,10 @@ title_en: "THE NEXT TRACK OF HUMANITY: From the Centennial Jing-Zhang Railway to
 author_github: "liuyihua95"
 language: "zh"
 license: "COMMUNITY-DISPLAY-ONLY"
-summary: "一百年前京张铁路为中国现代化铺轨；一百年后海淀以文明跃迁轴、三大城市原型和五条文明新轨，探索以人的全面发展、公共智能、可信治理、人机共创和地球共生为目标的智能文明。"
+summary: "一百年前京张铁路为中国现代化铺轨；一百年后海淀以文明跃迁轴、三大城市原型和五条文明新轨，探索以人的全面发展、公共智能、可信治理、共同创造和地球共生为目标的智能文明。"
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "ai-cultural-guide", "ai-health-service-navigation"]
-iteration: "v3.5"
+iteration: "v3.6"
 ---
 
 # 人类新轨：从百年京张到智能文明
@@ -178,7 +178,7 @@ iteration: "v3.5"
 | 2029—2035 形成共生原型 | 三大原型区、两翼服务网络、终身 AI 学院、可信智能公众参与中心、蓝绿生命系统 | 运营主体、空间权属、消防与容量论证 | 能力增长、居民满意、场景转化、公共收益 |
 | 2036—2049 输出文明标准 | 国际伙伴节点、开放标准档案、城市原型交换、全球智能文明大会 | 长期资金与治理章程另行审议 | 年度透明报告、独立评估、退出更新、全球复制 |
 
-三期 polygon 仅表达依赖关系和学习顺序 [data:geometry/phasing.geojson#PHASE-001] [metric:phase_1_area_sqm] [metric:phase_2_area_sqm] [metric:phase_3_area_sqm] [depth:renewal_project_list] [depth:phasing_implementation]，不是土地开发时序。建议成立“人类新轨理事会”：专业团队负责空间与安全，科研和开发者社区维护开放资产，居民陪审团审看高影响场景，伦理与法律委员审查权利边界，运营方发布年度透明度报告。活动体系包括春季智能文明议题发布、夏季城市原型共测、秋季全球智能文明大会、冬季贡献与责任归档；均为概念建议。
+三期 polygon 仅表达依赖关系和学习顺序 [data:geometry/phasing.geojson#PHASE-001] [metric:phase_1_area_sqm] [metric:phase_2_area_sqm] [metric:phase_3_area_sqm] [depth:renewal_project_list] [depth:phasing_implementation]，不是土地开发时序。建议建立“人类新轨协同运营机制”：专业团队负责空间与安全，科研伙伴维护开放资产，居民代表参与高影响场景评议，伦理与法律顾问复核权利边界，运营机构发布年度透明度报告。活动体系包括春季智能文明议题发布、夏季城市原型共测、秋季全球智能文明大会、冬季贡献与责任归档；均为概念建议。
 
 ## 指标体系、面积复算与合规矩阵
 

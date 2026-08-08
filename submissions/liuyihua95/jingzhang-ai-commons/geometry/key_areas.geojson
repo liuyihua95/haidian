@@ -106,7 +106,7 @@
         "layer": "KEY_AREA",
         "parent_scope_id": "key_detailed_design_area",
         "area_id": "dazhongsi_ai_industry_cluster",
-        "name_zh": "大钟寺AI产业聚集区粗略范围",
+        "name_zh": "大钟寺AI产业集聚区粗略范围",
         "source_type": "agent_inferred_from_public_data",
         "confidence": "medium",
         "geometry_role": "provisional_constraint",
