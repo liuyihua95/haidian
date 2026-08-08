@@ -20,7 +20,7 @@
       "result": "pass",
       "severity": "major",
       "target": "visual/index.html",
-      "message": "Offline HTML includes all required review sections and metric values consistent with metrics.json."
+      "message": "Offline HTML includes all required review sections, valid local assets and metric values consistent with metrics.json."
     },
     {
       "check_id": "PROFESSIONAL_EVIDENCE",
@@ -34,7 +34,7 @@
       "result": "pass",
       "severity": "info",
       "target": "drawings/",
-      "message": "All 24 A3 pages and 7 A0 boards were rendered and visually inspected after final image compression."
+      "message": "All 24 A3 pages and 7 A0 boards were rendered and visually inspected after the v3.0 layout rebuild."
     }
   ]
 }

@@ -23,7 +23,7 @@
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "b53fe973253013cf9292eaee3b65f1bd1ae4cb94f0e6a6f1248bc95fba267c83"
+      "sha256": "b164036c85bc5e9c2749e53f69388a125aafe5f5faaf87e35bb84d838872bd26"
     },
     {
       "path": "agent.json",
@@ -53,7 +53,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "9879c67c668e1f8a64ddfc03082564cbfc9ce8a5507f2fa8b91020ef5420ac8b"
+      "sha256": "c615aab6fa25c9de6f0d718c1045ea62570029f46becc4857885485a2a4cc66c"
     },
     {
       "path": "compliance_matrix.json",
@@ -77,7 +77,7 @@
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "ca88875bb33cb87200c4e9b78a7dc9868575f9d8be076dac42182de0bc52c166"
+      "sha256": "fe703c33e37778f798797a7800ae98284b81892040e43c3ce6bd929c40c28ef0"
     },
     {
       "path": "report/narrative.md",
@@ -95,73 +95,49 @@
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "b2c8016f2904f84f221069ce528a7bb3df6f141419e10879754ed1e6f3a2525e"
+      "sha256": "101da7555bda5eff642198593ed5cb29e9c99c171e2f380f39b4bd134e2b63c3"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "a279c318b4a9f54d2027366f947bbf6701ac2e4f74a7204853befe2413f66536"
+      "sha256": "859e78d4d4c1f0ee3399ebe3cc9100c692ab2aa4de56cf2a16e6655b888f81a5"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
-      "sha256": "aa7b1054d7b85c7bd50a2881fe07d087695a0f28315091299d4057f6d085ea52"
+      "sha256": "df89a52b3060d1595122f0cd4864749fd5d442458fa731de0ee711a8e8eeafcc"
     },
     {
       "path": "assets/figures/key-areas.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "815bddd2c3ccac4fc71f745f07a1904f11fe9bacc42387cc326f1af5c707b94a"
+      "sha256": "5c345d7e98590259d6e74163823d6483790bb1ad2380bcb8a3c70a2de16bbbfc"
     },
     {
       "path": "assets/figures/land-use-structure.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "df5ab6161730235db2ffb276955b4820f7456a86742e449f6f7e30d9ebe42be0"
+      "sha256": "25db21baf3f26cb3cd25a2863c5ffdd38f9be8c0bf1bb2419a8e2477326f8098"
     },
     {
       "path": "assets/figures/metrics-evidence.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "f9361b55fdb1bf4df3be3a548ad16d03e3106ee90cf3e8cfaed0e22d3426a344"
+      "sha256": "a634f1367005e33aacd3e4495c171121749a4583c0be45ad8918add647b91a16"
     },
     {
       "path": "assets/figures/mobility-bluegreen.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "df0efc45fa12d4c5e65dab0c6645c232ab4095362d5419d938541f89a6d77df5"
+      "sha256": "cc373026722f4626e602d3a22c855a760e20533148e0af49bbff604497dcd3ed"
     },
     {
       "path": "assets/figures/site-overview.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "c95e3b82e1bc6d34d37704dc6dda4ea2aeda846226210524243660e08a82b6c0"
-    },
-    {
-      "path": "assets/figures/humanity-track-hero-v2.png",
-      "role": "concept_figure",
-      "required": false,
-      "sha256": "a81f5a6e09a57e150edd39baeaba4d6551d3b8d1bd5dc22bac250dbe44ed2704"
-    },
-    {
-      "path": "assets/figures/zhongzhiyuan-scene-v2.png",
-      "role": "concept_figure",
-      "required": false,
-      "sha256": "52d7ca81cf5aea4957dac78a5e1762d7c0ea45718a2970f71ec6c41a7bfee39c"
-    },
-    {
-      "path": "assets/figures/ai-origin-scene-v2.png",
-      "role": "concept_figure",
-      "required": false,
-      "sha256": "81bc422cff14167af06f75c27a0d7266337d9e1a25cbec532fe35d9adea09cd0"
-    },
-    {
-      "path": "assets/figures/dazhongsi-scene-v2.png",
-      "role": "concept_figure",
-      "required": false,
-      "sha256": "60917a49d0b4897a16dc330beb823ae09ffc033390d477199d073acb31b947d2"
+      "sha256": "cf180d0dfad103953f910fc291264f6cc7983515e92089e996dcb3e50b80f4f7"
     },
     {
       "path": "assets/figures/humanity-track-hero-v2.jpg",
@@ -203,19 +179,19 @@
       "path": "assets/figures/key-area-detail-1-v2.png",
       "role": "supporting_figure",
       "required": false,
-      "sha256": "dc512ea99a4278d84850dd67e4a7c25f4c053e61f0de235c00fc9ee11cb4db6f"
+      "sha256": "9d11c1706c829f009bed765023889b743547e86578b0ab293c3740ca57e6dfbc"
     },
     {
       "path": "assets/figures/key-area-detail-2-v2.png",
       "role": "supporting_figure",
       "required": false,
-      "sha256": "af53fa51a0a2a36452f893cb2481b0c87dfda3db6a381ed5a797d3487516d98b"
+      "sha256": "e61e3b423d5514425fcb0d404c038446d15fd7eb46140c89a6b8fe32fde265c3"
     },
     {
       "path": "assets/figures/key-area-detail-3-v2.png",
       "role": "supporting_figure",
       "required": false,
-      "sha256": "56d8ee2f5f16c603d85bfe8de1df3b1865742b73e5758985cd6e81e6be92c529"
+      "sha256": "4d58fb17c9ed8e1f8339c1636ea6cf14c5a8faee1eb373acc1e8ede2b5f594e4"
     },
     {
       "path": "assets/figures/phasing-v2.png",
@@ -227,7 +203,7 @@
       "path": "assets/figures/scenario-matrix-v2.png",
       "role": "supporting_figure",
       "required": false,
-      "sha256": "6e9bbbd9381493a231a8ee933c3e58c9f0fdeb440cc43d55ce1a10cdf169c2f1"
+      "sha256": "5f2f64b159a30d50b53b2e45ebcf0494c116fa415f2befd26118e8f1fb8e507e"
     },
     {
       "path": "geometry/buildings.geojson",
@@ -282,6 +258,30 @@
       "role": "geometry",
       "required": true,
       "sha256": "f54c91eaaaa1515f7c1a65a1f0bc4e6b055571493e5ff1a8a69fea6f1ce0c60e"
+    },
+    {
+      "path": "assets/figures/executive-summary-v3.png",
+      "role": "supporting_figure",
+      "required": false,
+      "sha256": "58ac09f406c5ef8332ce8b70c6170e17e683336c13b68117b299ba951b6a6ed1"
+    },
+    {
+      "path": "assets/figures/brand-identity-v3.png",
+      "role": "supporting_figure",
+      "required": false,
+      "sha256": "f074205a681a02821d6852e2cbca172eb070c7c7317354fe765a525d365834b3"
+    },
+    {
+      "path": "assets/figures/personas-v3.png",
+      "role": "supporting_figure",
+      "required": false,
+      "sha256": "234fc62a7199c0f964e8d9eda2dedd0bc13b55e596ca11a32e4a81f5e093ede5"
+    },
+    {
+      "path": "changelog.md",
+      "role": "changelog",
+      "required": false,
+      "sha256": "b189eb78ccca6cf08d3db34fdd0a50e3d363e200f31df995a4d7853ac3c824e2"
     }
   ],
   "validation_claim": {
